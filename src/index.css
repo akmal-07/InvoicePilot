@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* PayPal Design Tokens */
+  --color-paypal-dark: #003087;
+  --color-paypal-blue: #0070E0;
+  --color-paypal-light: #00A3E0;
+
+  /* Neutral palette */
+  --color-bg: #ffffff;
+  --color-surface: #f8fafc;       /* slate-50 */
+  --color-border: #e2e8f0;        /* slate-200 */
+  --color-text-primary: #0f172a;  /* slate-900 */
+  --color-text-secondary: #475569;/* slate-600 */
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+}
+
